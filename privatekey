@@ -1,8 +1,4 @@
-spring.application.name=config-server
-server.port=8888
-spring.cloud.config.server.git.uri=git@github.com:mateoQuotteri/microservicios-practicas.git
-spring.cloud.config.server.git.hostKeyAlgorithm= ssh-rsa
-spring.cloud.config.server.git.privateKey=
+-----BEGIN OPENSSH PRIVATE KEY-----
 b3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABA++5Hab/
 gJKO8vO6ohDyiTAAAAGAAAAAEAAAIXAAAAB3NzaC1yc2EAAAADAQABAAACAQDWKlP5Tmoi
 UtjvovYdNb7SzNpIxSovTHU3ZUMtE1vWl2QJyGsMkCb89ZBaYY8wqU4UMcY+ieHKMgnWOb
@@ -51,3 +47,4 @@ VrRtbhJVpibIjK13m2qs2JaWlwUZ+AVZMuKHQK+05yN84V7x6Ofzdfa6Xl7IeLA6JPm/hZ
 tpt1LA9il24wRjvpZVnHrqLm7e/mjVoahyVpiZcm6pXBhnbMeoqbf/Rmd3Bmju9Z8KQtyc
 HUdZIijJNOTX2+Cw2yYWuf/A4h4K16yzxjjG3e3tl31F0wd7+cgFLu9ai6Q6i/k2Kf6yFj
 AYXaRWswtWF98XUAjsMUDjqJ4=
+-----END OPENSSH PRIVATE KEY-----
