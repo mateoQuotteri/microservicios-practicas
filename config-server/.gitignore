@@ -32,3 +32,13 @@ build/
 ### VS Code ###
 .vscode/
 application.properties
+
+### Archivos sensibles ###
+claveprivada
+claveprivada.pub
+TOKENGIT
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
