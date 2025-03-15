@@ -17,6 +17,6 @@ spring:
           filters:
             - StripPrefix=0
             - AddRequestHeader=X-Request-from, gateway
-            #- AddResponseHeader=X-Response-red, blue
+            - AddResponseHeader=X-Response-Red, blue
 server:
   port: 8084
