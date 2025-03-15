@@ -16,5 +16,7 @@ spring:
             - Path=/checkout/**
           filters:
             - StripPrefix=0
+            - AddRequestHeader=X-Request-from, gateway
+            #- AddResponseHeader=X-Response-red, blue
 server:
   port: 8084
