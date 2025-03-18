@@ -16,6 +16,12 @@ public class Checkout {
         this.avaliableMethods = avaliableMethods;
     }
 
+
+    public Checkout(String id) {
+        super();
+        this.id = id;
+    }
+
     public void setId(String id) {
         this.id = id;
     }
