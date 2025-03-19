@@ -14,7 +14,7 @@ public class SecurityConfig {
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
                 .authorizeHttpRequests(auth ->
-                        auth.requestMatchers("/checkout/{id}").hasAnyAuthority("SCOPE_email")
+                        auth.requestMatchers("/checkout/{id}", "/checkout/**").hasAnyAuthority("SCOPE_email")
                         .anyRequest().authenticated()
                 )
                 .oauth2ResourceServer((oauth2 -> oauth2

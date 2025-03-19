@@ -5,7 +5,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient(name="products-service", url="http://localhost:8080")
+@FeignClient(name="products-service", url="http://localhost:8081")
 public interface FeignProductRepository {
     @GetMapping("/products")
     Product getProductById(@RequestParam("id") String id);

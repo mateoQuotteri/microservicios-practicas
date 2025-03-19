@@ -20,7 +20,11 @@ public class CheckoutController {
     }
 
     @GetMapping
-    public Checkout getCheckout(@RequestParam List<String> productIds, @RequestHeader("X-Request-from") String requestFrom, @RequestHeader()Map<String, String> headers) {
+    public Checkout getCheckout
+            (@RequestParam List<String> productIds,
+             @RequestHeader(value = "X-Request-from", required = false) String requestFrom,
+             @RequestHeader Map<String, String> headers)
+    {
         System.out.println("Request from: " + requestFrom);
         //if (!requestFrom.equals("gateway")) {
        // return null;
