@@ -8,5 +8,5 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient(name="products-service", url="http://localhost:8081")
 public interface FeignProductRepository {
     @GetMapping("/products")
-    Product getProductById(@RequestParam("id") String id);
+    Product getProductById(@RequestParam("id") String id, @RequestParam Boolean throwError);
 }

@@ -11,6 +11,9 @@ public class Product {
         this.nombre = nombre;
         this.precio = precio;
     }
+    public Product() {
+
+    }
 
 
     public String getId() {

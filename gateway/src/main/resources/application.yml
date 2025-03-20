@@ -1,0 +1,77 @@
+# Nombre de la aplicaci�n
+spring:
+  application:
+    name: gateway-service
+
+  config:
+    import: "optional:configserver:"
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/dh
+
+  # Configuraci�n de Gateway
+  cloud:
+    gateway:
+      default-filters:
+        - TokenRelay
+        - SaveSession
+      routes:
+        - id: checkout-service
+          uri: http://localhost:8082
+          predicates:
+            - Path=/checkout
+        - id: products-service
+          uri: http://localhost:8081
+          predicates:
+            - Path=/product
+          filters:
+            - AddRequestHeader=X-Request-from, gateway
+            - AddResponseHeader=X-Response-Red, blue
+
+# Puerto del servidor
+server:
+  port: 8085
+
+# Configuraci�n de Eureka
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    fetch-registry: true
+    register-with-eureka: true
+    registry-fetch-interval-seconds: 10
+  instance:
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 10
+    lease-expiration-duration-in-seconds: 30
+
+# Configuraci�n de Actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    name: gateway-service
+
+
+
+
+# Configuraci�n de logging
+logging:
+  level:
+    org.springframework.cloud: INFO
+    org.springframework.web: INFO
+    org.springframework.cloud.gateway: DEBUG
+    org.springframework.security: DEBUG
+    org.springframework.security.oauth2: DEBUG
+    org.springframework.web.client.RestTemplate: DEBUG
+    reactor.netty: DEBUG
