@@ -11,10 +11,12 @@ public class Product {
         this.nombre = nombre;
         this.precio = precio;
     }
+
     public Product() {
-
+        this.id = "default";
+        this.nombre = "Producto por defecto";
+        this.precio = 0.0;
     }
-
 
     public String getId() {
         return id;

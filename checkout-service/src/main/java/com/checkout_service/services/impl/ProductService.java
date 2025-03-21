@@ -13,9 +13,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ProductService implements IProductService {
-
     private final FeignProductRepository feignProductRepository;
-    Logger logger =  LoggerFactory.getLogger(ProductService.class);
+    Logger logger = LoggerFactory.getLogger(ProductService.class);
 
     public ProductService(FeignProductRepository feignProductRepository) {
         this.feignProductRepository = feignProductRepository;
@@ -25,19 +24,15 @@ public class ProductService implements IProductService {
     @CircuitBreaker(name = "product", fallbackMethod = "methodGetProductFallback")
     public Product getProduct(String id) {
         logger.info("Obteniendo producto con id: {}", id);
-        return feignProductRepository.getProductById(id, true);
-        // Deja que la excepción se propague naturalmente
+        // Para probar, lanzamos una excepción controlada
+        return feignProductRepository.getProductById(id, false);
     }
 
-    public Product methodGetProductFallback(String id, Throwable ex) {
-        logger.error("Fallback activado. Tipo de excepción: {}, Mensaje: {}",
-                ex.getClass().getName(), ex.getMessage());
-        return new Product();
+    // Para RuntimeException
+    public Product methodGetProductFallback(String id, RuntimeException ex) {
+        logger.info("********** FALLBACK por RuntimeException para id: {} **********", id);
+        return new Product("fallback-" + id, "Producto de fallback", 15.0);
     }
-    public Product methodGetProductFallback(String id, feign.FeignException ex) {
-        logger.error("Fallback activado para FeignException. Tipo: {}, Código: {}, Mensaje: {}",
-                ex.getClass().getSimpleName(), ex.status(), ex.getMessage());
-        return new Product("fallback-" + id, "Producto de respaldo", 0.0);
-    }
+
 
 }

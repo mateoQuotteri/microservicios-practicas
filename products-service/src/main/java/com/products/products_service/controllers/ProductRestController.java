@@ -12,7 +12,7 @@ public class ProductRestController {
 
 
     @GetMapping()
-    public Product getProduct(@RequestParam String id, @RequestParam(defaultValue = "false") Boolean throwError){
+    public Product getProduct(@RequestParam String id, @RequestParam() Boolean throwError){
         if (throwError){
             throw new RuntimeException("Error");
         }
