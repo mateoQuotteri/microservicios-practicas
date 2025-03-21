@@ -21,11 +21,11 @@ public class ProductService implements IProductService {
     }
 
     @Override
-    @CircuitBreaker(name = "product", fallbackMethod = "methodGetProductFallback")
+    @CircuitBreaker(name = "product")  // Sin fallback aquí
+    @Retry(name = "product", fallbackMethod = "methodGetProductFallback")
     public Product getProduct(String id) {
         logger.info("Obteniendo producto con id: {}", id);
-        // Para probar, lanzamos una excepción controlada
-        return feignProductRepository.getProductById(id, false);
+        return feignProductRepository.getProductById(id, true);
     }
 
     // Para RuntimeException
