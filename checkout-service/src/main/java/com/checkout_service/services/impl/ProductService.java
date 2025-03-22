@@ -25,7 +25,7 @@ public class ProductService implements IProductService {
     @Retry(name = "product", fallbackMethod = "methodGetProductFallback")
     public Product getProduct(String id) {
         logger.info("Obteniendo producto con id: {}", id);
-        return feignProductRepository.getProductById(id, true);
+        return feignProductRepository.getProductById(id, false);
     }
 
     // Para RuntimeException

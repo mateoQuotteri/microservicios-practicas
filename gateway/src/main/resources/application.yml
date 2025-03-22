@@ -57,10 +57,14 @@ management:
   info:
     env:
       enabled: true
-
+  tracing:
+    sampling:
+      probability: 1.0  # Aquí falta un espacio después de los dos puntos
 info:
   app:
     name: gateway-service
+
+
 
 
 
@@ -75,3 +79,6 @@ logging:
     org.springframework.security.oauth2: DEBUG
     org.springframework.web.client.RestTemplate: DEBUG
     reactor.netty: DEBUG
+
+
+
