@@ -19,6 +19,7 @@
 	<description>Microservicio de productos</description>
 
 	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>17</java.version>
 		<spring-cloud.version>2023.0.0</spring-cloud.version>
 		<!-- Cambiado a Java 17 para coincidir con java.version y evitar problemas de compilación -->
@@ -125,6 +126,7 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>products</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
