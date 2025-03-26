@@ -1,0 +1,147 @@
+2025-03-25T22:53:35.235-03:00  INFO 21656 --- [payments-service] [main] c.example.payments.PaymentsApplication   : Starting PaymentsApplication using Java 23.0.2 with PID 21656 (C:\Users\Sistema\Desktop\microservicios-practicas\payments\target\classes started by Sistema in C:\Users\Sistema\Desktop\microservicios-practicas\payments)
+2025-03-25T22:53:35.241-03:00  INFO 21656 --- [payments-service] [main] c.example.payments.PaymentsApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-03-25T22:53:37.485-03:00  INFO 21656 --- [payments-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f8f9de52-6358-35aa-b324-14ea97a7e486
+2025-03-25T22:53:38.131-03:00  INFO 21656 --- [payments-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2025-03-25T22:53:38.170-03:00  INFO 21656 --- [payments-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-25T22:53:38.171-03:00  INFO 21656 --- [payments-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-03-25T22:53:38.288-03:00  INFO 21656 --- [payments-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-25T22:53:38.289-03:00  INFO 21656 --- [payments-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2921 ms
+2025-03-25T22:53:39.902-03:00  INFO 21656 --- [payments-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-03-25T22:53:40.027-03:00  WARN 21656 --- [payments-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-03-25T22:53:40.195-03:00  INFO 21656 --- [payments-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-03-25T22:53:40.243-03:00  INFO 21656 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-03-25T22:53:40.256-03:00  INFO 21656 --- [payments-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-03-25T22:53:40.273-03:00  INFO 21656 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-03-25T22:53:40.274-03:00  INFO 21656 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-03-25T22:53:40.274-03:00  INFO 21656 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-03-25T22:53:40.274-03:00  INFO 21656 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-03-25T22:53:40.275-03:00  INFO 21656 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-03-25T22:53:40.277-03:00  INFO 21656 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-03-25T22:53:40.278-03:00  INFO 21656 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-03-25T22:53:40.974-03:00  INFO 21656 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-03-25T22:53:40.978-03:00  INFO 21656 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-03-25T22:53:40.983-03:00  INFO 21656 --- [payments-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-03-25T22:53:40.988-03:00  INFO 21656 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1742954020986 with initial instances count: 0
+2025-03-25T22:53:40.997-03:00  INFO 21656 --- [payments-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PAYMENTS-SERVICE with eureka with status UP
+2025-03-25T22:53:40.999-03:00  INFO 21656 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1742954020999, current=UP, previous=STARTING]
+2025-03-25T22:53:41.002-03:00  INFO 21656 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086: registering service...
+2025-03-25T22:53:41.038-03:00  INFO 21656 --- [payments-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2025-03-25T22:53:41.041-03:00  INFO 21656 --- [payments-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8086
+2025-03-25T22:53:41.062-03:00  INFO 21656 --- [payments-service] [main] c.example.payments.PaymentsApplication   : Started PaymentsApplication in 7.12 seconds (process running for 8.98)
+2025-03-25T22:53:41.096-03:00  INFO 21656 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086 - registration status: 204
+2025-03-25T22:54:10.985-03:00  INFO 21656 --- [payments-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-03-25T22:54:10.986-03:00  INFO 21656 --- [payments-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-03-25T22:54:10.986-03:00  INFO 21656 --- [payments-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-03-25T22:54:10.986-03:00  INFO 21656 --- [payments-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-03-25T22:54:10.986-03:00  INFO 21656 --- [payments-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-03-25T22:54:10.986-03:00  INFO 21656 --- [payments-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2025-03-25T22:54:10.986-03:00  INFO 21656 --- [payments-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-03-25T22:54:11.035-03:00  INFO 21656 --- [payments-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-03-25T22:54:41.159-03:00  INFO 21656 --- [payments-service] [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-25T22:54:41.159-03:00  INFO 21656 --- [payments-service] [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-25T22:54:41.160-03:00  INFO 21656 --- [payments-service] [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-25T22:55:12.611-03:00  INFO 21656 --- [payments-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PAYMENTS-SERVICE with eureka with status DOWN
+2025-03-25T22:55:12.612-03:00  INFO 21656 --- [payments-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1742954112612, current=DOWN, previous=UP]
+2025-03-25T22:55:12.613-03:00  INFO 21656 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086: registering service...
+2025-03-25T22:55:12.616-03:00  INFO 21656 --- [payments-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-25T22:55:12.627-03:00  INFO 21656 --- [payments-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-25T22:55:12.642-03:00  INFO 21656 --- [payments-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-03-25T22:55:12.647-03:00  INFO 21656 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086 - registration status: 204
+2025-03-25T22:55:12.648-03:00  INFO 21656 --- [payments-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-03-25T22:55:12.657-03:00  INFO 21656 --- [payments-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086 - deregister  status: 200
+2025-03-25T22:55:12.658-03:00  INFO 21656 --- [payments-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-03-25T22:55:18.900-03:00  INFO 21020 --- [payments-service] [main] c.example.payments.PaymentsApplication   : Starting PaymentsApplication using Java 23.0.2 with PID 21020 (C:\Users\Sistema\Desktop\microservicios-practicas\payments\target\classes started by Sistema in C:\Users\Sistema\Desktop\microservicios-practicas\payments)
+2025-03-25T22:55:18.904-03:00  INFO 21020 --- [payments-service] [main] c.example.payments.PaymentsApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-03-25T22:55:21.060-03:00  INFO 21020 --- [payments-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f8f9de52-6358-35aa-b324-14ea97a7e486
+2025-03-25T22:55:21.642-03:00  INFO 21020 --- [payments-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2025-03-25T22:55:21.669-03:00  INFO 21020 --- [payments-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-25T22:55:21.670-03:00  INFO 21020 --- [payments-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-03-25T22:55:21.769-03:00  INFO 21020 --- [payments-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-25T22:55:21.771-03:00  INFO 21020 --- [payments-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2775 ms
+2025-03-25T22:55:21.871-03:00  INFO 12504 --- [payments-service] [main] c.example.payments.PaymentsApplication   : Starting PaymentsApplication using Java 23.0.2 with PID 12504 (C:\Users\Sistema\Desktop\microservicios-practicas\payments\target\classes started by Sistema in C:\Users\Sistema\Desktop\microservicios-practicas\payments)
+2025-03-25T22:55:21.875-03:00  INFO 12504 --- [payments-service] [main] c.example.payments.PaymentsApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-03-25T22:55:23.159-03:00  INFO 21020 --- [payments-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-03-25T22:55:23.266-03:00  WARN 21020 --- [payments-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-03-25T22:55:23.377-03:00  INFO 21020 --- [payments-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-03-25T22:55:23.416-03:00  INFO 12504 --- [payments-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f8f9de52-6358-35aa-b324-14ea97a7e486
+2025-03-25T22:55:23.415-03:00  INFO 21020 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-03-25T22:55:23.423-03:00  INFO 21020 --- [payments-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-03-25T22:55:23.441-03:00  INFO 21020 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-03-25T22:55:23.442-03:00  INFO 21020 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-03-25T22:55:23.442-03:00  INFO 21020 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-03-25T22:55:23.442-03:00  INFO 21020 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-03-25T22:55:23.442-03:00  INFO 21020 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-03-25T22:55:23.442-03:00  INFO 21020 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-03-25T22:55:23.442-03:00  INFO 21020 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-03-25T22:55:23.837-03:00  INFO 12504 --- [payments-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8086 (http)
+2025-03-25T22:55:23.859-03:00  INFO 21020 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-03-25T22:55:23.863-03:00  INFO 12504 --- [payments-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-25T22:55:23.864-03:00  INFO 12504 --- [payments-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-03-25T22:55:23.863-03:00  INFO 21020 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-03-25T22:55:23.867-03:00  INFO 21020 --- [payments-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-03-25T22:55:23.874-03:00  INFO 21020 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1742954123873 with initial instances count: 6
+2025-03-25T22:55:23.882-03:00  INFO 21020 --- [payments-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PAYMENTS-SERVICE with eureka with status UP
+2025-03-25T22:55:23.884-03:00  INFO 21020 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1742954123884, current=UP, previous=STARTING]
+2025-03-25T22:55:23.887-03:00  INFO 21020 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086: registering service...
+2025-03-25T22:55:23.915-03:00  INFO 21020 --- [payments-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8086 (http) with context path '/'
+2025-03-25T22:55:23.917-03:00  INFO 21020 --- [payments-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8086
+2025-03-25T22:55:23.931-03:00  INFO 21020 --- [payments-service] [main] c.example.payments.PaymentsApplication   : Started PaymentsApplication in 5.938 seconds (process running for 7.397)
+2025-03-25T22:55:23.952-03:00  INFO 21020 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086 - registration status: 204
+2025-03-25T22:55:23.958-03:00  INFO 12504 --- [payments-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-25T22:55:23.959-03:00  INFO 12504 --- [payments-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2003 ms
+2025-03-25T22:55:25.119-03:00  INFO 12504 --- [payments-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-03-25T22:55:25.227-03:00  WARN 12504 --- [payments-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-03-25T22:55:25.338-03:00  INFO 12504 --- [payments-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-03-25T22:55:25.391-03:00  INFO 12504 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-03-25T22:55:25.398-03:00  INFO 12504 --- [payments-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-03-25T22:55:25.413-03:00  INFO 12504 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-03-25T22:55:25.414-03:00  INFO 12504 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-03-25T22:55:25.414-03:00  INFO 12504 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-03-25T22:55:25.414-03:00  INFO 12504 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-03-25T22:55:25.415-03:00  INFO 12504 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-03-25T22:55:25.416-03:00  INFO 12504 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-03-25T22:55:25.416-03:00  INFO 12504 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-03-25T22:55:25.816-03:00  INFO 12504 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-03-25T22:55:25.820-03:00  INFO 12504 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-03-25T22:55:25.824-03:00  INFO 12504 --- [payments-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-03-25T22:55:25.826-03:00  INFO 12504 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1742954125825 with initial instances count: 6
+2025-03-25T22:55:25.832-03:00  INFO 12504 --- [payments-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PAYMENTS-SERVICE with eureka with status UP
+2025-03-25T22:55:25.834-03:00  INFO 12504 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1742954125834, current=UP, previous=STARTING]
+2025-03-25T22:55:25.837-03:00  INFO 12504 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086: registering service...
+2025-03-25T22:55:25.849-03:00  INFO 12504 --- [payments-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PAYMENTS-SERVICE with eureka with status DOWN
+2025-03-25T22:55:25.850-03:00  INFO 12504 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1742954125850, current=DOWN, previous=UP]
+2025-03-25T22:55:25.852-03:00  WARN 12504 --- [payments-service] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-03-25T22:55:25.860-03:00  INFO 12504 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-03-25T22:55:25.908-03:00  INFO 12504 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086 - registration status: 204
+2025-03-25T22:55:25.909-03:00  INFO 12504 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086: registering service...
+2025-03-25T22:55:25.917-03:00  INFO 12504 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086 - registration status: 204
+2025-03-25T22:55:25.918-03:00  INFO 12504 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-03-25T22:55:25.926-03:00  INFO 12504 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086 - deregister  status: 200
+2025-03-25T22:55:25.927-03:00  INFO 12504 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-03-25T22:55:25.946-03:00  INFO 12504 --- [payments-service] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-25T22:55:25.982-03:00 ERROR 12504 --- [payments-service] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8086 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8086 or configure this application to listen on another port.
+
+2025-03-25T22:55:42.506-03:00  INFO 21020 --- [payments-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PAYMENTS-SERVICE with eureka with status DOWN
+2025-03-25T22:55:42.506-03:00  INFO 21020 --- [payments-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1742954142506, current=DOWN, previous=UP]
+2025-03-25T22:55:42.507-03:00  INFO 21020 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086: registering service...
+2025-03-25T22:55:42.509-03:00  INFO 21020 --- [payments-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-25T22:55:42.514-03:00  INFO 21020 --- [payments-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-25T22:55:42.527-03:00  INFO 21020 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086 - registration status: 204
+2025-03-25T22:55:42.534-03:00  INFO 21020 --- [payments-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-03-25T22:55:45.542-03:00  INFO 21020 --- [payments-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-03-25T22:55:45.564-03:00  INFO 21020 --- [payments-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086 - deregister  status: 200
+2025-03-25T22:55:45.564-03:00  INFO 21020 --- [payments-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
