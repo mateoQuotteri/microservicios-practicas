@@ -1,19 +1,19 @@
-2025-03-26T16:18:35.296-03:00  INFO 8088 --- [payments-service] [main] c.e.payments.PaymentsApplicationTests    : Starting PaymentsApplicationTests using Java 24 with PID 8088 (started by Sistema in C:\Users\Sistema\Desktop\microservicios-practicas\payments)
-2025-03-26T16:18:35.303-03:00  INFO 8088 --- [payments-service] [main] c.e.payments.PaymentsApplicationTests    : No active profile set, falling back to 1 default profile: "default"
-2025-03-26T16:18:36.420-03:00  INFO 8088 --- [payments-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=16f3bcdd-f309-37c3-a79c-2ae7005907a0
-2025-03-26T16:18:37.672-03:00  INFO 8088 --- [payments-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-03-26T16:18:37.756-03:00  WARN 8088 --- [payments-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-03-26T16:18:37.785-03:00  INFO 8088 --- [payments-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-03-26T16:18:37.815-03:00  INFO 8088 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-03-26T16:18:37.822-03:00  INFO 8088 --- [payments-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-03-26T16:18:37.844-03:00  INFO 8088 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-03-26T16:18:37.844-03:00  INFO 8088 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-03-26T16:18:37.845-03:00  INFO 8088 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-03-26T16:18:37.845-03:00  INFO 8088 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-03-26T16:18:37.845-03:00  INFO 8088 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-03-26T16:18:37.845-03:00  INFO 8088 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-03-26T16:18:37.845-03:00  INFO 8088 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-03-26T16:18:38.186-03:00  INFO 8088 --- [payments-service] [main] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2025-03-27T19:24:32.519-03:00  INFO 19984 --- [payments-service] [main] c.e.payments.PaymentsApplicationTests    : Starting PaymentsApplicationTests using Java 24 with PID 19984 (started by Sistema in C:\Users\Sistema\Desktop\microservicios-practicas\payments)
+2025-03-27T19:24:32.534-03:00  INFO 19984 --- [payments-service] [main] c.e.payments.PaymentsApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-03-27T19:24:34.547-03:00  INFO 19984 --- [payments-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=16f3bcdd-f309-37c3-a79c-2ae7005907a0
+2025-03-27T19:24:36.668-03:00  INFO 19984 --- [payments-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-03-27T19:24:36.817-03:00  WARN 19984 --- [payments-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-03-27T19:24:36.864-03:00  INFO 19984 --- [payments-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-03-27T19:24:36.928-03:00  INFO 19984 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-03-27T19:24:36.939-03:00  INFO 19984 --- [payments-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-03-27T19:24:36.962-03:00  INFO 19984 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-03-27T19:24:36.963-03:00  INFO 19984 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-03-27T19:24:36.963-03:00  INFO 19984 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-03-27T19:24:36.963-03:00  INFO 19984 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-03-27T19:24:36.963-03:00  INFO 19984 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-03-27T19:24:36.964-03:00  INFO 19984 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-03-27T19:24:36.964-03:00  INFO 19984 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-03-27T19:24:39.826-03:00  INFO 19984 --- [payments-service] [main] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka-server/eureka/}, exception=I/O error on GET request for "http://eureka-server/eureka/apps/": Host desconocido (eureka-server) stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://eureka-server/eureka/apps/": Host desconocido (eureka-server)
 	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
@@ -160,14 +160,16 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282)
-	at java.base/java.net.Socket.connect(Socket.java:665)
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
+Caused by: java.net.UnknownHostException: Host desconocido (eureka-server)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52)
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1128)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1697)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1056)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1687)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1568)
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:61)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:169)
 	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
 	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
 	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
@@ -197,8 +199,8 @@ Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http:
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
 	... 144 more
 
-2025-03-26T16:18:38.189-03:00  WARN 8088 --- [payments-service] [main] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
-2025-03-26T16:18:38.190-03:00  INFO 8088 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/host.docker.internal:payments-service:8086 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+2025-03-27T19:24:39.829-03:00  WARN 19984 --- [payments-service] [main] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on GET request for "http://eureka-server/eureka/apps/": Host desconocido (eureka-server)
+2025-03-27T19:24:39.830-03:00  INFO 19984 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
@@ -335,17 +337,17 @@ Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http:
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-2025-03-26T16:18:38.192-03:00  INFO 8088 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Initial registry fetch from primary servers failed
-2025-03-26T16:18:38.192-03:00  WARN 8088 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Using default backup registry implementation which does not do anything.
-2025-03-26T16:18:38.193-03:00  INFO 8088 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Initial registry fetch from backup servers failed
-2025-03-26T16:18:38.194-03:00  INFO 8088 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-03-26T16:18:38.196-03:00  INFO 8088 --- [payments-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-03-26T16:18:38.200-03:00  INFO 8088 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1743016718198 with initial instances count: 0
-2025-03-26T16:18:38.204-03:00  INFO 8088 --- [payments-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PAYMENTS-SERVICE with eureka with status UP
-2025-03-26T16:18:38.205-03:00  INFO 8088 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1743016718205, current=UP, previous=STARTING]
-2025-03-26T16:18:38.207-03:00  INFO 8088 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/host.docker.internal:payments-service:8086: registering service...
-2025-03-26T16:18:38.218-03:00  INFO 8088 --- [payments-service] [main] c.e.payments.PaymentsApplicationTests    : Started PaymentsApplicationTests in 3.427 seconds (process running for 4.698)
-2025-03-26T16:18:38.281-03:00  INFO 8088 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/PAYMENTS-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/PAYMENTS-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2025-03-27T19:24:39.832-03:00  INFO 19984 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Initial registry fetch from primary servers failed
+2025-03-27T19:24:39.833-03:00  WARN 19984 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Using default backup registry implementation which does not do anything.
+2025-03-27T19:24:39.833-03:00  INFO 19984 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Initial registry fetch from backup servers failed
+2025-03-27T19:24:39.835-03:00  INFO 19984 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-03-27T19:24:39.838-03:00  INFO 19984 --- [payments-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-03-27T19:24:39.843-03:00  INFO 19984 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1743114279840 with initial instances count: 0
+2025-03-27T19:24:39.850-03:00  INFO 19984 --- [payments-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PAYMENTS-SERVICE with eureka with status UP
+2025-03-27T19:24:39.852-03:00  INFO 19984 --- [payments-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1743114279852, current=UP, previous=STARTING]
+2025-03-27T19:24:39.855-03:00  INFO 19984 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086: registering service...
+2025-03-27T19:24:39.869-03:00  INFO 19984 --- [payments-service] [main] c.e.payments.PaymentsApplicationTests    : Started PaymentsApplicationTests in 8.204 seconds (process running for 10.717)
+2025-03-27T19:24:39.948-03:00  INFO 19984 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka-server/eureka/}, exception=I/O error on POST request for "http://eureka-server/eureka/apps/PAYMENTS-SERVICE": eureka-server stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://eureka-server/eureka/apps/PAYMENTS-SERVICE": eureka-server
 	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
@@ -370,14 +372,12 @@ Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http:
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
 	at java.base/java.lang.Thread.run(Thread.java:1447)
-Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282)
-	at java.base/java.net.Socket.connect(Socket.java:665)
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
+Caused by: java.net.UnknownHostException: eureka-server
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:905)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1687)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1568)
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:61)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:169)
 	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
 	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
 	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
@@ -407,8 +407,8 @@ Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http:
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
 	... 22 more
 
-2025-03-26T16:18:38.282-03:00  WARN 8088 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/PAYMENTS-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
-2025-03-26T16:18:38.282-03:00  WARN 8088 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/host.docker.internal:payments-service:8086 - registration failed Cannot execute request on any known server
+2025-03-27T19:24:39.949-03:00  WARN 19984 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://eureka-server/eureka/apps/PAYMENTS-SERVICE": eureka-server
+2025-03-27T19:24:39.950-03:00  WARN 19984 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086 - registration failed Cannot execute request on any known server
 
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
@@ -426,7 +426,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
 
-2025-03-26T16:18:38.288-03:00  WARN 8088 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+2025-03-27T19:24:39.956-03:00  WARN 19984 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
 
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
@@ -444,11 +444,11 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
 
-2025-03-26T16:18:38.890-03:00  INFO 8088 --- [payments-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PAYMENTS-SERVICE with eureka with status DOWN
-2025-03-26T16:18:38.890-03:00  INFO 8088 --- [payments-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1743016718890, current=DOWN, previous=UP]
-2025-03-26T16:18:38.890-03:00  INFO 8088 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/host.docker.internal:payments-service:8086: registering service...
-2025-03-26T16:18:38.900-03:00  INFO 8088 --- [payments-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2025-03-26T16:18:38.904-03:00  INFO 8088 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/PAYMENTS-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/PAYMENTS-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2025-03-27T19:24:41.111-03:00  INFO 19984 --- [payments-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PAYMENTS-SERVICE with eureka with status DOWN
+2025-03-27T19:24:41.112-03:00  INFO 19984 --- [payments-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1743114281112, current=DOWN, previous=UP]
+2025-03-27T19:24:41.112-03:00  INFO 19984 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086: registering service...
+2025-03-27T19:24:41.127-03:00  INFO 19984 --- [payments-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-03-27T19:24:41.132-03:00  INFO 19984 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka-server/eureka/}, exception=I/O error on POST request for "http://eureka-server/eureka/apps/PAYMENTS-SERVICE": eureka-server stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://eureka-server/eureka/apps/PAYMENTS-SERVICE": eureka-server
 	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
@@ -473,14 +473,12 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
 	at java.base/java.lang.Thread.run(Thread.java:1447)
-Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282)
-	at java.base/java.net.Socket.connect(Socket.java:665)
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
+Caused by: java.net.UnknownHostException: eureka-server
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:905)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1687)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1568)
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:61)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:169)
 	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
 	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
 	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
@@ -510,8 +508,8 @@ Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http:
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
 	... 22 more
 
-2025-03-26T16:18:38.904-03:00  WARN 8088 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/PAYMENTS-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
-2025-03-26T16:18:38.905-03:00  WARN 8088 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/host.docker.internal:payments-service:8086 - registration failed Cannot execute request on any known server
+2025-03-27T19:24:41.133-03:00  WARN 19984 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://eureka-server/eureka/apps/PAYMENTS-SERVICE": eureka-server
+2025-03-27T19:24:41.133-03:00  WARN 19984 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086 - registration failed Cannot execute request on any known server
 
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
@@ -529,7 +527,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
 
-2025-03-26T16:18:38.905-03:00  WARN 8088 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+2025-03-27T19:24:41.134-03:00  WARN 19984 --- [payments-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
 
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
@@ -547,8 +545,8 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
 
-2025-03-26T16:18:38.906-03:00  INFO 8088 --- [payments-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2025-03-26T16:18:38.933-03:00  INFO 8088 --- [payments-service] [SpringApplicationShutdownHook] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/PAYMENTS-SERVICE/host.docker.internal:payments-service:8086": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/PAYMENTS-SERVICE/host.docker.internal:payments-service:8086": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2025-03-27T19:24:41.135-03:00  INFO 19984 --- [payments-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-03-27T19:24:41.148-03:00  INFO 19984 --- [payments-service] [SpringApplicationShutdownHook] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://eureka-server/eureka/}, exception=I/O error on DELETE request for "http://eureka-server/eureka/apps/PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086": eureka-server stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://eureka-server/eureka/apps/PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086": eureka-server
 	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
@@ -588,14 +586,12 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
 	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116)
 	at java.base/java.lang.Thread.run(Thread.java:1447)
-Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:628)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:533)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:282)
-	at java.base/java.net.Socket.connect(Socket.java:665)
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
+Caused by: java.net.UnknownHostException: eureka-server
+	at java.base/java.net.InetAddress$CachedLookup.get(InetAddress.java:905)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1687)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1568)
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:61)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:169)
 	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
 	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
 	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
@@ -625,8 +621,8 @@ Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http:
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
 	... 37 more
 
-2025-03-26T16:18:38.934-03:00  WARN 8088 --- [payments-service] [SpringApplicationShutdownHook] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/PAYMENTS-SERVICE/host.docker.internal:payments-service:8086": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
-2025-03-26T16:18:38.934-03:00 ERROR 8088 --- [payments-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/host.docker.internal:payments-service:8086 - de-registration failedCannot execute request on any known server
+2025-03-27T19:24:41.149-03:00  WARN 19984 --- [payments-service] [SpringApplicationShutdownHook] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://eureka-server/eureka/apps/PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086": eureka-server
+2025-03-27T19:24:41.150-03:00 ERROR 19984 --- [payments-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENTS-SERVICE/DESKTOP-1QTVP2F.mshome.net:payments-service:8086 - de-registration failedCannot execute request on any known server
 
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
@@ -659,4 +655,4 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116) ~[spring-boot-3.4.4.jar:3.4.4]
 	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
 
-2025-03-26T16:18:38.935-03:00  INFO 8088 --- [payments-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-03-27T19:24:41.153-03:00  INFO 19984 --- [payments-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
