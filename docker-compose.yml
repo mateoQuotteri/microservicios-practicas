@@ -29,3 +29,9 @@ services:
     build : gateway/
     ports:
       - "8085:8085"
+  rabbit-mq:
+    image: rabbitmq:3.12-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+      
